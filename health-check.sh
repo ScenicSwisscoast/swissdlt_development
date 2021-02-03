@@ -1,6 +1,7 @@
 #!/bin/bash
 NOW=$(date +"%b-%d %H:%M")
 if (ps -ef | grep -i node1 | grep -v grep) ; then
+sleep 1
 #    echo 'Node1 is running '$NOW''
 #    uncomment the next line for testing purposes
 #    echo 'Node1 is running '$NOW'' >> ~/swissdlt/servercheck.txt
